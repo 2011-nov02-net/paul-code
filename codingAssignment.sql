@@ -47,7 +47,7 @@ SELECT * from Customers as c
 inner join orders on customer_id = c.id
 where c.first_name = 'tina';
 
-Select SUM(product_id) from orders 
+Select SUM(product_id) as total_sales_Iphone from orders 
 where product_id = 2;
 --inner join products as p on product_id = p.id
 
